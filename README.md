@@ -1,15 +1,6 @@
 <!-- MBriad's GitHub profile README. Rendered at https://github.com/MBriad -->
 
-<!-- Banner: swap `assets/banner.svg` (and banner-night.svg) with your own art when ready.
-     Keep the same picture/source structure so dark mode keeps working. -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-night.svg">
-  <img src="assets/banner.svg" alt="banner" width="100%">
-</picture>
-
-<p align="center">
-  <img src="assets/greet.png" alt="greeting" width="110">
-</p>
+<img align="right" width="110" src="assets/greet.png" alt="greeting">
 
 <h1 align="center">Hello! 🌤️</h1>
 
