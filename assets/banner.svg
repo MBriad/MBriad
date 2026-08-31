@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="A warm cream sky with a soft sun, clouds and green hills">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FEFCF6"/>
+      <stop offset="100%" stop-color="#FFF0DA"/>
+    </linearGradient>
+    <linearGradient id="hillBack" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#CDE3C2"/>
+      <stop offset="100%" stop-color="#B8D2AC"/>
+    </linearGradient>
+    <linearGradient id="hillFront" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9CAF88"/>
+      <stop offset="100%" stop-color="#8BA076"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#sky)"/>
+
+  <!-- sun -->
+  <circle cx="985" cy="118" r="70" fill="#FFE9B0" opacity="0.55"/>
+  <circle cx="985" cy="118" r="46" fill="#FFE9B0"/>
+
+  <!-- clouds -->
+  <g fill="#FFFFFF">
+    <g opacity="0.95">
+      <ellipse cx="210" cy="110" rx="58" ry="24"/>
+      <ellipse cx="258" cy="96" rx="40" ry="20"/>
+      <ellipse cx="162" cy="98" rx="34" ry="16"/>
+    </g>
+    <g opacity="0.9">
+      <ellipse cx="560" cy="70" rx="52" ry="21"/>
+      <ellipse cx="600" cy="58" rx="34" ry="16"/>
+      <ellipse cx="522" cy="60" rx="28" ry="13"/>
+    </g>
+    <g opacity="0.85">
+      <ellipse cx="905" cy="196" rx="46" ry="18"/>
+      <ellipse cx="940" cy="186" rx="30" ry="14"/>
+      <ellipse cx="874" cy="188" rx="24" ry="11"/>
+    </g>
+    <g opacity="0.9">
+      <ellipse cx="1080" cy="92" rx="42" ry="17"/>
+      <ellipse cx="1110" cy="82" rx="28" ry="13"/>
+    </g>
+  </g>
+
+  <!-- hills -->
+  <path d="M0 300 Q180 220 380 268 T800 252 T1200 264 V320 H0 Z" fill="url(#hillBack)"/>
+  <path d="M0 320 Q220 250 460 296 T900 288 T1200 300 V320 H0 Z" fill="url(#hillFront)"/>
+
+  <!-- tiny birds -->
+  <g stroke="#B99B7D" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.8">
+    <path d="M700 130 Q706 124 712 130 Q718 124 724 130"/>
+    <path d="M750 148 Q755 143 760 148 Q765 143 770 148"/>
+  </g>
+</svg>

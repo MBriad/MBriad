@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="36" viewBox="0 0 132 36" role="img" aria-label="MATLAB">
+  <rect x="1" y="1" width="130" height="34" rx="17" fill="#FFF8F0" stroke="#E2D3BE" stroke-width="1.5"/>
+  <circle cx="18" cy="18" r="5" fill="#D98E73"/>
+  <text x="32" y="23.5" font-family="Segoe UI, -apple-system, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#5C4B3A">MATLAB</text>
+</svg>
