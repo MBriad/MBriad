@@ -1,16 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="A starry night sky with a crescent moon and dark hills with warm lit windows">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="A deep blue night sky with stars, a pale moon and dark hills with warm lit windows">
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#454A6B"/>
-      <stop offset="100%" stop-color="#2E3250"/>
+      <stop offset="0%" stop-color="#1E2638"/>
+      <stop offset="100%" stop-color="#141A2B"/>
     </linearGradient>
     <linearGradient id="hillBack" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#5A5F82"/>
-      <stop offset="100%" stop-color="#4C5173"/>
+      <stop offset="0%" stop-color="#2A344A"/>
+      <stop offset="100%" stop-color="#242C40"/>
     </linearGradient>
     <linearGradient id="hillFront" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#43496A"/>
-      <stop offset="100%" stop-color="#383D5C"/>
+      <stop offset="0%" stop-color="#232B3F"/>
+      <stop offset="100%" stop-color="#1D2436"/>
     </linearGradient>
   </defs>
 
@@ -40,8 +40,8 @@
   </g>
 
   <!-- crescent moon -->
-  <circle cx="1005" cy="96" r="42" fill="#F4EFD8"/>
-  <circle cx="982" cy="82" r="38" fill="#3B3F5E"/>
+  <circle cx="1005" cy="96" r="42" fill="#F4F6FF"/>
+  <circle cx="982" cy="82" r="38" fill="#1A2233"/>
 
   <!-- hills -->
   <path d="M0 300 Q180 230 380 270 T800 255 T1200 268 V320 H0 Z" fill="url(#hillBack)"/>
